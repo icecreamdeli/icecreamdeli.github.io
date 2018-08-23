@@ -1,0 +1,142 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Limelight');
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls');
+@import url('https://fonts.googleapis.com/css?family=Life+Savers');
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+	font-family: 'Life Savers', cursive;
+	font-weight: bold;
+}
+
+h1.header{
+	font-famiy: 'Fredericka the Great', cursive;
+	font-faly: 'Limelight', cursive;
+	font-family: 'Megrim', cursive;
+	border: 1px solid #8d6e63;
+	padding: 10px 5px;
+}
+
+h5.header{
+	font-family: 'Crafty Girls', cursive;
+}
+.first-image{
+	opacity: 0.3;
+}
+
+.second-image{
+	opacity: 0.3;
+}
+
+#download-button{
+
+}
+
+#download-button:hover{
+	font-size: 16px;
+}
+
+.sidenav{
+	font-family: 'Life Savers', cursive;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.items{
+	font-family: 'Life Savers', cursive;
+	font-weight: bold;
+	display: flex;
+	justify: content;
+	align-items: center;
+}
+
+.items-radius{
+	background-color: pink;
+	border-radius: 50%;
+	opacity: 0.8;
+	transition: all 0.3s ease-in-out;
+}
+
+.items-radius:hover{
+	-webkit-transform: scale(1.05);
+	        transform: scale(1.05);
+	opacity: 1;
+}
+nav{
+	font-family: 'Life Savers', cursive;
+	font-weight: bold;
+}
+
+.nav-item-border{
+	transition: all 0.3s ease-in-out;
+}
+
+.nav-item-hover:hover{
+	-webkit-transform: scale(1.05);
+	        transform: scale(1.05);
+	background-color: pink;
+}
+
+min-w{
+	min-width: 500px;
+	
+}
+
+.p-font{
+	font-family: 'Life Savers', cursive;
+	font-weight: bold;
+}
