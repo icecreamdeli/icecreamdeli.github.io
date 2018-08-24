@@ -119,6 +119,7 @@ h5.header{
 nav{
 	font-family: 'Life Savers', cursive;
 	font-weight: bold;
+	transition: all 0.3s ease-in-out;
 }
 
 .nav-item-border{
